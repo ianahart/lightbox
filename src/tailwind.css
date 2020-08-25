@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  @apply rounded-full h-4 w-4 m-1 flex border border-white items-center justify-center;
+}
